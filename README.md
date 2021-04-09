@@ -47,7 +47,7 @@ $> tree -d
 
 ### 사용한 모델 아키텍처 및 하이퍼 파라미터
 
-1. 아키텍쳐: ResNet34
+- 아키텍쳐: ResNet34
   A. LB 점수 accuracy : 81.5238%, f1 : 0.7669%
   B. transforms.CenterCrop(384)
   C. transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
